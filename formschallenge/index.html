@@ -1,0 +1,43 @@
+ <doctype html>
+ 
+ <html lang=en>
+ 
+	<head>
+	<meta charset=utf-8>
+        <link rel="stylesheet" type="text/html" href="css/forms.css">
+        <title>My First form</title>
+    </head>
+	
+	<body>
+        <div>
+			<form action="info.php" method="post">
+			
+				<label for="name">Name:</label>
+					<input type="text" ïd="name" name="username" required>
+					
+				<label for="mail">Email:</label>
+					<input type="email" ïd="mail" name="user_mail" required>
+
+				<label for="msg">Message:</label>
+					<textarea ïd="msg" name="username"></textarea>
+					<input minlength="2" maxlength="10">
+
+				<label for="password">Password:</label>
+					<input type="text" ïd="password" name="userpassword" required>
+
+				<label for="happy">Are you happy?:</label>
+					<input type="checkbox" ïd="happy" name="happiness" required>
+
+				<label for="love">Are you loved?:</label>
+					<input type="radio" ïd="love" name="loved" required>
+
+				<label for="submit">
+					<input type="submit" value="SUBMIT NOW">
+					
+				
+			</form>
+		
+		</div>
+    </body>
+
+</html>
