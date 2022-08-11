@@ -1,14 +1,6 @@
-.textfields {
-  background-color: grey;
-}
-#heading {
-font-weight: bold;
-margin: 3rem;
-}
-
-p {
-  margin-left: 3rem;
-}
-input {
-  width: 100;
+textfields {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
